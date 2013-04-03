@@ -20,6 +20,8 @@ _kmels:_ What do you mean by not being accessible because of our limited brain p
 
 _neto:_ The systems exist the problem is that we are not able to define them due to our limited capacity, like the languages that exist but humans nor Turing Machines can recognize
 
+_kmels:_ I see, and the proof of their existence is undecidable, since so are the TM-unrecognizable languages.
+
 ## Formal Systems
 
 _neto:_ To begin the quest to find the limits of human thinking power, lets introduce what formal systems are. A formal system is composed of two parts: the axioms and derivation rules. Axioms are simply pieces of information that are assumed to be `true`. 
