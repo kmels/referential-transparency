@@ -4,7 +4,7 @@ title: Formal systems and the Brain
 
 This post is guided by Ernesto (neto) and commented or questioned by Carlos (kmels)
 
-# Motivation
+# Motivating
 
 _neto:_ It seems rather unrealistic to believe that a formal system can exceed the capacity of human brain. It is simply unbearable to believe that given a set of axioms and rules the system could evolve to equal or exceed human intelligence. 
 
@@ -67,6 +67,8 @@ We can produce more strings with this system using the given axioms and rules:
 
 A clever enough reader might have noticed that the given system produces only valid additions. Count all the 1's and check that the equations are always true. In fact, an invalid addition is not possible within this system.  Anyways we must not confuse the meaning we are giving to the system with the system itself. The system is entirely typographical, given a string, it can be replaced by another string according to the rules, that is all the system consists of. 
 
+### Beauty through Lindenmayer
+
 There are other more interesting systems such as the Lindenmayer systems. One of such systems can be defined as follows: 
 
 _kmels:_ Before mentioning new systems, can we say what the relationship is between the last system and the new one? Do they have the same essence?
@@ -76,7 +78,6 @@ Axioms:
   L~RR~RRR~
 
 Rules:
-
 
 ~ -> ~L~RR~L~ . This rule states that if we have a valid string, we can produce a new valid string by replacing every ~ with  ~L~RR~L~ 
 (to be done)
@@ -96,7 +97,17 @@ If we draw the first three strings we get the following pictures
 
 And if we keep going...
 
-AAALAVERGA! :) Como hiciste estas graficas? En Haskell, auf jeden fal!l In fact, this system can be run to infinity to produce a snowflake. We could interpret the infinite application of our rule to be correspondent to a fractal, don’t you agree? Yes. Once again, remember that the meaning given to the system (namely the rules used to draw it) are not part of the system. The system is entirely typographical.
+_kmels:_ OMG! :) How did you do those graphics? 
+
+_neto:_ In Haskell, naturally! 
+
+In fact, this system can be run to infinity to produce a snowflake. 
+
+_kmels:_ We could interpret the infinite application of our rule to be correspondent to a fractal, don’t you agree? 
+
+_neto:_ Yes. Once again, remember that the meaning given to the system (namely the rules used to draw it) are not part of the system. The system is entirely typographical.
+
+### Peano
 
 Now consider this one last formal system, the natural numbers:
 
