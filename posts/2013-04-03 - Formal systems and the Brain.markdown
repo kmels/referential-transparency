@@ -34,13 +34,11 @@ _kmels:_ It will be useful for us to define what does it mean for a formal syste
 
 _neto:_ This can be left for another post where we talk about completeness and consistency.. 
 
-_kmels:_ It could, but aren’t we talking about Gödel Incompleteness theorem? We ought to define what completeness is
+_kmels:_ It could, but aren’t we talking about Gödel Incompleteness theorem too? We ought to define what completeness is
 
-_neto:_ We could eventually have a post about it, but the theorem requires some background info that we could present in previous posts.  
+_neto:_ We could eventually have a post about it, but the theorem requires some background info that we could present in previous posts.
 
-_kmels:_ All right, so we are not talking Gödel.
-
-_neto:_ Let’s exemplify with some axioms. The following simple example illustrates these concepts:
+Let’s exemplify with some axioms. The following simple example illustrates these concepts:
 
 ### Axioms:
 
@@ -57,7 +55,7 @@ _kmels:_ Ok, but '+' could be a binary operation on elements right?, I just want
 
 _neto:_ Let $x,y$ and $z$ be any string composed of any number of 1’s. Then if $x+y=z$ is a true, also $x+y_1=z_1$ is true. 
 
-_kmels:_ When you say is true, then you mean that it is an axiom. 
+_kmels:_ When you say that something is true, then you mean that it is an axiom. 
 
 _neto:_ No, because something that followed from any axiom is also true. True means that it is either an axiom or that it was produced by a sequence of rules, i.e. a theorem. 
 
